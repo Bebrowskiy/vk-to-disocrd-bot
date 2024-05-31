@@ -1,5 +1,2 @@
-vkbottle>=4.2.0
-aiohttp
-psutil
-simpledemotivators
-g4f
+disnake
+vk_api
