@@ -4,7 +4,7 @@ from disnake.ext import commands
 from utils.utils import load_config
 
 
-class ExampleCog(commands.Cog):
+class PostingCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.config = load_config()
@@ -45,4 +45,4 @@ class ExampleCog(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(ExampleCog(bot))
+    bot.add_cog(PostingCog(bot))
