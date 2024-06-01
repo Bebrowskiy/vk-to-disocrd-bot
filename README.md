@@ -16,11 +16,17 @@
 Настройка бота осуществляется в файле `config.json`
 
 `token` - токен [Disocrd Бота](https://discord.com/developers/applications/)
-`vk_token` - [токен приложения VK](https://dev.vk.com/ru/admin/apps-list)
+
+`vk_token` - [токен приложения VK](https://dev.vk.com/ru/admin/apps-list
+)
 `app_id` - [id приложения VK](https://dev.vk.com/ru/admin/apps-list)
+
 `group_id` - id сообщества ВК
+
 `prefix` -  префикс для бота
+
 `channel_id` - id дискорд канала, куда будет отправляться пост
+
 ## Установка и запуск
 
 ### Установка
