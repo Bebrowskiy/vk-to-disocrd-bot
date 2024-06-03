@@ -1,58 +1,50 @@
-<p align="center">Discord Бот, который пересылает самый последний пост со страницы сообщества VK в Discord канал</p>
-
+<p align="center">A Discord Bot that forwards the latest post from a VK community page to a Discord channel</p>
 
 <p align="center"><img alt="image" src="pictures/image.png" /></p>
 
-## Описание
-Бот берет самый последний пост с ленты сообщества ВК и публикует в дискорд канал(`Поддерживает только одно изображение к отправке`)
+## Description
+The bot fetches the latest post from a VK community feed and publishes it to a Discord channel (supports sending only one image).
 
-### Использование
-`/ping` - команда для проверки работоспособности бота
+### Usage
+`/ping` - command to check if the bot is working
 
-`/post` - публикует пост со страницы ВК в формате `embed`
+`/post` - publishes a post from the VK page in an embed format
 
-### Настройка
+### Configuration
 
-Настройка бота осуществляется в файле `config.json`
+The bot is configured in the `config.json` file.
 
-`token` - токен [Disocrd Бота](https://discord.com/developers/applications/)
+- `token` - [Discord Bot Token](https://discord.com/developers/applications/)
+- `vk_token` - [VK Application Token](https://dev.vk.com/ru/admin/apps-list)
+- `app_id` - [VK Application ID](https://dev.vk.com/ru/admin/apps-list)
+- `group_id` - VK community ID
+- `prefix` - bot prefix
+- `channel_id` - Discord channel ID where the post will be sent
 
-`vk_token` - [токен приложения VK](https://dev.vk.com/ru/admin/apps-list
-)
-`app_id` - [id приложения VK](https://dev.vk.com/ru/admin/apps-list)
+## Installation and Launch
 
-`group_id` - id сообщества ВК
-
-`prefix` -  префикс для бота
-
-`channel_id` - id дискорд канала, куда будет отправляться пост
-
-## Установка и запуск
-
-### Установка
+### Installation
 
 ```bash
-git clone https://github.com/Bebrowskiy/vk-to-disocrd-bot.git
+git clone https://github.com/Bebrowskiy/vk-to-discord-bot.git
 ```
 
-### Зависимости
-
-- disnake
-- vk_api
+### Dependencies
 
 ```bash
-cd vk-to-disocrd-bot/
+cd vk-to-discord-bot/
 ```
-
 ```bash
 pip install -r requirements.txt
 ```
 
-### Запуск
+### Launch
 
 ```bash
-cd Posting-Bot
+cd Posting-Bot/
+```
+```bash
 python bot.py
 ```
 
-<p align="center"> <a href="https://vk.com/bebrow2021">Моя страница в VK</a></p>
+<p align="center"><a href="https://vk.com/bebrow2021">My VK Page</a></p>
